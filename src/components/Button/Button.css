@@ -1,0 +1,44 @@
+.button{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+}
+
+.button button{
+    display: flex;
+    width: 35%;
+    height: 71px;
+    padding: 21px 65px 21px 66px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #509D46;
+
+
+    color: var(--Branco, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px){
+    .button button{
+        width: 50%;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .button button{
+        width: 80%;
+        font-size: 18px;
+    }
+}
